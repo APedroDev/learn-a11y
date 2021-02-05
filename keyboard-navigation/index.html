@@ -24,6 +24,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
             <li><a href="../index.html"><span class="glyphicon glyphicon-arrow-left"></span> Back</a></li>
+            <li><a href="#main" class="skip-nav">SkipNavigation</a></li>
             <li><a href="#main">Assignment</a></li>
             <li><a href="#focus">Focus</a></li>
             <li><a href="#tabindex">Tabindex</a></li>
@@ -121,9 +122,9 @@ embed,
                 <option>Purple</option>
                 <option>Black</option>
               </select>
-              <input type="checkbox"> Remember me
-              <div class="btn btn-default">Cancel</div>
-              <div class="btn btn-primary">Submit</div>
+              <input tabindex="0" type="checkbox"> Remember me
+              <div tabindex="0" class="btn btn-default">Cancel</div>
+              <div tabindex="0" class="btn btn-primary">Submit</div>
             </fieldset>
           </form>
         </main>
@@ -131,6 +132,5 @@ embed,
     </div>
     <script type="text/javascript" src="../js/jquery.min.js"></script>
     <script type="text/javascript" src="../js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="../js/focus.js"></script>
   </body>
 </html>

@@ -9,15 +9,29 @@ main {
   margin: 25px 0;
 }
 
+.skip-nav {
+  position: absolute !important;
+  top: -100px;
+  transition: all 0.25s ease;
+  left: 0px;
+  background: #ffffff !important;
+  color: #0c84e4 !important;
+  z-index: 99999;
+}
+
+.skip-nav:focus {
+  top: 0px;
+}
+
 .colors-one,
 .colors-one h2 {
-  color: #EBEA76;
+  color: #ebea76;
 }
 
 .colors-two,
 .colors-two h2 {
-  background: #00CD34;
-  color: #BC00BB;
+  background: #00cd34;
+  color: #bc00bb;
 }
 
 .colors-three,
