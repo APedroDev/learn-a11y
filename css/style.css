@@ -25,17 +25,17 @@ main {
 
 .colors-one,
 .colors-one h2 {
-  color: #ebea76;
+  color: #8d6708;
 }
 
 .colors-two,
 .colors-two h2 {
   background: #00cd34;
-  color: #bc00bb;
+  color: #522032;
 }
 
 .colors-three,
 .colors-three h2 {
   background: green;
-  color: red;
+  color: #fffacd;
 }
